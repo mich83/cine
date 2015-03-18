@@ -38,3 +38,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo'
 gem 'tzinfo-data'
+
+gem 'yaml_db'

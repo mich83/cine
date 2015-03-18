@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Numero:</strong>
+  <%= @asiento.numero %>
+</p>
+
+<p>
+  <strong>Posicionx:</strong>
+  <%= @asiento.posicionX %>
+</p>
+
+<p>
+  <strong>Posiciony:</strong>
+  <%= @asiento.posicionY %>
+</p>
+
+<%= link_to 'Edit', edit_asiento_path(@asiento) %> |
+<%= link_to 'Back', asientos_path %>
